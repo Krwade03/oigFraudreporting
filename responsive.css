@@ -1,0 +1,211 @@
+/****************** 
+#first_Paragraph {
+  padding: 4px 5px 5px;
+  margin: 0px;
+  text-align: left;
+  color: white;
+ }
+
+#second_Paragraph {
+  padding: 4px 5px 5px;
+  margin: 0px;
+  text-align: left;
+  color: white;
+ }
+
+#third_Paragraph {
+  padding: 4px 5px 5px;
+  margin: 0px;
+  text-align: left;
+  color: white;
+ }
+
+#fourth_Paragraph {
+  padding: 4px 5px 5px;
+  margin: 0px;
+  text-align: left;
+  color: white;
+ }
+
+#fifth_Paragraph {
+  padding: 4px 5px 5px;
+  margin: 0px;
+  text-align: left;
+  color: white;
+ }
+
+#sixth_Paragraph {
+  padding: 4px 5px 5px;
+  margin: 0px;
+  text-align: left;
+  color: white;
+ }
+
+ 
+ body {
+  margin: 0 auto;
+  font-family: verdana, sans-serif;
+  font-size: 0.95em;
+  background-color: #eac657;
+}
+ *************************/
+/******************
+#header
+*****************/
+/******************
+#header {
+  float: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+
+h1 {
+float: left;
+margin 0;
+text-indent: -20000px;
+width:  240px;
+height: 320px;
+background: url("./projectimages/IMG_0721 (4).xcf") no-repeat;
+padding-right: 5%;
+padding-top: 5%;
+}
+
+
+ 
+
+#first_Paragraph {
+clear
+padding: 50px;
+margin-left: 10px;
+
+} 
+
+#first_Paragraph p {
+background: #d2b14e;
+padding: 50px;
+font-style: italic;
+margin-left: 10px;
+}
+
+********************************/
+ img {
+  max-width: 100%;
+ }
+/*********************
+@media screen and (min-width: 769px) {
+
+  body {
+    background: white;
+    padding: 50px 0 0;
+     
+    font-size: 100%;
+     
+  }
+
+  nav {
+   
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+    background-color: green;
+  }
+   }
+**********************************/
+   @media screen and (min-width: 480px) {
+      /***************
+      two column layout
+      ******************/
+
+      #primary {
+        width: 50%;
+        float: left;
+}
+
+      #secondary {
+        width: 40%;
+        float: right;
+}
+
+
+p {
+  font-size: 1.5rem;
+  max-width: 95%;  
+}
+
+
+.nav {
+  float: top;
+}
+
+form {
+    max-width: 480px;
+}
+}
+ 
+
+ @media screen and (min-width: 660px) {
+ 
+#primary {
+        width: 50%;
+        float: left;
+}
+
+      #secondary {
+        width: 40%;
+        float: right;
+}
+
+p {
+  font-size: 1.5rem;
+  max-width: 95%;
+  
+}
+
+form {
+    max-width: 480px;
+}
+
+}
+
+ @media screen and (max-width: 479px)    {
+
+ #primary {
+        width: 50%;
+        float: left;
+}
+
+      #secondary {
+        width: 40%;
+        float: right;
+}
+
+
+h1 {
+  font-size: .5rem;
+}
+
+p {
+  font-size: .5rem;
+  max-width: 80%;  
+}
+ .nav {
+  background: none;
+  float: right;
+  font-size: .5rem;
+  margin-right: 5%;
+  text-align: right;
+  
+ }
+
+ #video {
+  max-width: 40%;
+  max-height: 20%;
+   }
+
+   form {
+    max-width: 480px;
+}
+}
